@@ -1,7 +1,7 @@
 let sidebar =  require('./nav-sidebar.js');
 module.exports = {
-    title: '插件集',
-    description: '插件集合',
+    title: '收录集',
+    description: '收录集',
     base: '/',
     host: '0.0.0.0',
     port: 8080,
