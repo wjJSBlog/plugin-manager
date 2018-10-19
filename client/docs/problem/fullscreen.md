@@ -1,4 +1,4 @@
-# FullScreen
+# FullScreen API
 
 ## 适用对象
 
@@ -49,14 +49,15 @@
 
 |名称      |类型      |属性描述符  |说明|
 | :--------|:--------|:-------- |:-------- |
-| fullscreenEnabled  | boolean |  只读   | 表明浏览器是否支持全屏模式 |
+| fullscreenEnabled  | boolean |  只读   | 如果文档能够全屏显示元素并且支持全屏，则返回true，否则返回false |
 | fullscreenElement  | Object  |  只读   | 返回当前处于全屏的元素,没有则返回 null|
-| fullscreen         | boolean |  只读   | 返回一个布尔值,表明当前文档是否处于全屏模式 |
+| fullscreen         | boolean |  只读   | 返回一个布尔值,表明当前文档是否处于全屏模式  非标准属性不推荐使用|
 
 ### Document.Method
 
     /*
     * 退出全屏
+    * @return promise
     */
 
     function exitFullscreen() {}

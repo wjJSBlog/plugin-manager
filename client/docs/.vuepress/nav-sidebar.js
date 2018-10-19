@@ -1,17 +1,25 @@
 // 分组菜单
 module.exports = [
     {
-        title: '全屏展示',
+        title: 'Plugin',
         collapsable: false,
         children: [
-            '/screen/fullscreen'
+          '/plugin/table/datatable'
         ]
     },
     {
-        title: '表格',
+        title: 'NetWork',
         collapsable: false,
         children: [
-          '/table/datatable'
+          '/network/http'
+        ]
+    },
+    {
+        title: 'Problem',
+        collapsable: false,
+        children: [
+          '/problem/download-file',
+          '/problem/fullscreen'
         ]
     }
 ];
